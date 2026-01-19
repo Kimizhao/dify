@@ -1,7 +1,7 @@
 """remove unused is_deleted from conversations
 
 Revision ID: e5d7a95e676f
-Revises: d57accd375ae
+Revises: 288345cd01d1
 Create Date: 2025-11-27 18:27:09.006691
 
 """
@@ -9,7 +9,7 @@ import sqlalchemy as sa
 from alembic import op
 
 revision = "e5d7a95e676f"
-down_revision = "d57accd375ae"
+down_revision = "288345cd01d1"
 branch_labels = None
 depends_on = None
 
